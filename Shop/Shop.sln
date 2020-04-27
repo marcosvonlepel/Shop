@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Borrar", "Borrar", "{9AC943FF-600F-40B2-8EDF-7FEF24B6EC10}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\HP 360\Pictures\loteamiento robinson.bmp = ..\..\Users\HP 360\Pictures\loteamiento robinson.bmp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
