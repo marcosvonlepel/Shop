@@ -1,8 +1,11 @@
 ﻿namespace Shop.WEB.Data
 {
-    using Entities;
+	using Entities;
+	using System.Linq;
 
-    public interface IProductRepository : IGenericRepository<Product>
-    {
-    }
+	public interface IProductRepository : IGenericRepository<Product>
+	{
+		IQueryable GetAllWithUsers();
+	}
+
 }
