@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Common", "Shop.Common\Shop.Common.csproj", "{137A937B-16D6-4DAB-B686-EC2E4F4733EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Common", "Shop.Common\Shop.Common.csproj", "{137A937B-16D6-4DAB-B686-EC2E4F4733EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{03AFE2B0-52A6-49D1-A0BC-E91A1D0761A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{107582D9-FF62-4AB1-9862-2B7CF4589960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.WEB", "Shop.WEB\Shop.WEB.csproj", "{34A498C4-2403-4C51-86BE-FDD938803742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.WEB", "Shop.WEB\Shop.WEB.csproj", "{34A498C4-2403-4C51-86BE-FDD938803742}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{0B480D3E-FE8B-49CD-9149-46C490F24C07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classic", "Classic", "{AEC495C0-0525-4BAF-8B23-56F7B1AAAF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIForms.Android", "UIForms\UIForms.Android\UIForms.Android.csproj", "{0AB6028C-6DE9-4DE3-A1FC-DA4334FD9BEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.Android", "UIForms\UIForms.Android\Shop.UIForms.Android.csproj", "{0AB6028C-6DE9-4DE3-A1FC-DA4334FD9BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIForms.iOS", "UIForms\UIForms.iOS\UIForms.iOS.csproj", "{ED6B06C8-83CC-468E-95D9-EE60F260B5B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.iOS", "UIForms\UIForms.iOS\Shop.UIForms.iOS.csproj", "{ED6B06C8-83CC-468E-95D9-EE60F260B5B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIForms", "UIForms\UIForms\UIForms.csproj", "{1FCB1648-0D65-4509-80BB-6AC180CB2E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIForms", "UIForms\UIForms\Shop.UIForms.csproj", "{1FCB1648-0D65-4509-80BB-6AC180CB2E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{5B733F63-712C-48E0-92C0-15163DACE848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{5B733F63-712C-48E0-92C0-15163DACE848}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic.Android", "Shop.UIClassic.Android\Shop.UIClassic.Android.csproj", "{ED94A664-2E37-4700-83BE-9056ADD01A55}"
 EndProject
