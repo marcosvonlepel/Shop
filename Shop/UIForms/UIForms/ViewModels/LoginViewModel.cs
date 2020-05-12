@@ -1,9 +1,9 @@
-﻿using GalaSoft.MvvmLight.Command;
-using System.Windows.Input;
-using Xamarin.Forms;
-
-namespace Shop.UIForms.ViewModels
+﻿namespace Shop.UIForms.ViewModels
 {
+    using System.Windows.Input;
+    using Xamarin.Forms;
+    using GalaSoft.MvvmLight.Command;
+    using Views;
     public class LoginViewModel
     {
         public string Email { get; set; }
@@ -37,8 +37,8 @@ namespace Shop.UIForms.ViewModels
                 await Application.Current.MainPage.DisplayAlert("Error", "Incorrect user or password", "Accept");
                 return;
             }
-
-            await Application.Current.MainPage.DisplayAlert("Ok", "Fuck yeah!!!", "Accept");
+            MainViewModel.GetInstance().Products = new ProductsViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new ProductsPage());
         }
     }
 
